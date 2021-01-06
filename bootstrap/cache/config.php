@@ -4,7 +4,7 @@
     'name' => 'Laravel',
     'env' => 'local',
     'debug' => true,
-    'url' => 'http://localhost/checklist-sistem/public/',
+    'url' => 'http://localhost:8000',
     'asset_url' => NULL,
     'timezone' => 'UTC',
     'locale' => 'en',
@@ -274,7 +274,7 @@
         'collation' => 'utf8mb4_unicode_ci',
         'prefix' => '',
         'prefix_indexes' => true,
-        'strict' => true,
+        'strict' => false,
         'engine' => NULL,
         'options' => 
         array (
@@ -351,7 +351,7 @@
       array (
         'driver' => 'local',
         'root' => 'C:\\xampp\\htdocs\\checklist-sistem\\storage\\app/public',
-        'url' => 'http://localhost/checklist-sistem/public//storage',
+        'url' => 'http://localhost:8000/storage',
         'visibility' => 'public',
       ),
       's3' => 
@@ -471,9 +471,9 @@
         'transport' => 'smtp',
         'host' => 'smtp.mailtrap.io',
         'port' => '2525',
-        'encryption' => NULL,
-        'username' => NULL,
-        'password' => NULL,
+        'encryption' => '',
+        'username' => '4c256ceed25e08',
+        'password' => 'eebd34bca104c8',
         'timeout' => NULL,
         'auth_mode' => NULL,
       ),
@@ -506,8 +506,8 @@
     ),
     'from' => 
     array (
-      'address' => NULL,
-      'name' => 'Laravel',
+      'address' => 'hello@example.com',
+      'name' => 'Example',
     ),
     'markdown' => 
     array (
@@ -625,7 +625,7 @@
     array (
       'font_dir' => 'C:\\xampp\\htdocs\\checklist-sistem\\storage\\fonts/',
       'font_cache' => 'C:\\xampp\\htdocs\\checklist-sistem\\storage\\fonts/',
-      'temp_dir' => 'C:\\Users\\User\\AppData\\Local\\Temp',
+      'temp_dir' => 'C:\\Users\\ELFANN~1\\AppData\\Local\\Temp',
       'chroot' => 'C:\\xampp\\htdocs\\checklist-sistem',
       'enable_font_subsetting' => false,
       'pdf_backend' => 'CPDF',

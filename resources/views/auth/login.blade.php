@@ -63,6 +63,9 @@
                     @enderror
                     <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                 </div>
+                <div>
+                    <a href="{{ route('password.request') }}" class="text-right" style="margin:5px 0 0"><p>Lupa Password?</p></a>
+                </div>
                 <div class="row">
                     <div class="col-xs-8">
                         <div class="checkbox icheck">

@@ -59,7 +59,7 @@ class OBController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             //'password' => Hash::make('123'),
-            //'role' => $request->role,
+            'role' => $request->role,
         ]);
 
         return redirect()->route('admin.ob.index')
